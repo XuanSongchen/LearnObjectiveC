@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29C6C5A11CBFFD69009D6769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C6C5A01CBFFD69009D6769 /* main.m */; };
+		29C6C5A91CBFFDA3009D6769 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C6C5A81CBFFDA3009D6769 /* News.m */; };
+		29C6C5AC1CC00522009D6769 /* NewsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C6C5AB1CC00522009D6769 /* NewsList.m */; };
+		29C6C5AF1CC01052009D6769 /* NewsDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C6C5AE1CC01052009D6769 /* NewsDB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29C6C59B1CBFFD69009D6769 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		29C6C59D1CBFFD69009D6769 /* DataModel_Modol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataModel_Modol; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C6C5A01CBFFD69009D6769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29C6C5A71CBFFDA3009D6769 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		29C6C5A81CBFFDA3009D6769 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		29C6C5AA1CC00522009D6769 /* NewsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsList.h; sourceTree = "<group>"; };
+		29C6C5AB1CC00522009D6769 /* NewsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsList.m; sourceTree = "<group>"; };
+		29C6C5AD1CC01052009D6769 /* NewsDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDB.h; sourceTree = "<group>"; };
+		29C6C5AE1CC01052009D6769 /* NewsDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDB.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29C6C59A1CBFFD69009D6769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29C6C5941CBFFD69009D6769 = {
+			isa = PBXGroup;
+			children = (
+				29C6C59F1CBFFD69009D6769 /* DataModel_Modol */,
+				29C6C59E1CBFFD69009D6769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29C6C59E1CBFFD69009D6769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29C6C59D1CBFFD69009D6769 /* DataModel_Modol */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29C6C59F1CBFFD69009D6769 /* DataModel_Modol */ = {
+			isa = PBXGroup;
+			children = (
+				29C6C5A01CBFFD69009D6769 /* main.m */,
+				29C6C5A71CBFFDA3009D6769 /* News.h */,
+				29C6C5A81CBFFDA3009D6769 /* News.m */,
+				29C6C5AA1CC00522009D6769 /* NewsList.h */,
+				29C6C5AB1CC00522009D6769 /* NewsList.m */,
+				29C6C5AD1CC01052009D6769 /* NewsDB.h */,
+				29C6C5AE1CC01052009D6769 /* NewsDB.m */,
+			);
+			path = DataModel_Modol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29C6C59C1CBFFD69009D6769 /* DataModel_Modol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C6C5A41CBFFD69009D6769 /* Build configuration list for PBXNativeTarget "DataModel_Modol" */;
+			buildPhases = (
+				29C6C5991CBFFD69009D6769 /* Sources */,
+				29C6C59A1CBFFD69009D6769 /* Frameworks */,
+				29C6C59B1CBFFD69009D6769 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataModel_Modol;
+			productName = DataModel_Modol;
+			productReference = 29C6C59D1CBFFD69009D6769 /* DataModel_Modol */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29C6C5951CBFFD69009D6769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Xuan Songchen";
+				TargetAttributes = {
+					29C6C59C1CBFFD69009D6769 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 29C6C5981CBFFD69009D6769 /* Build configuration list for PBXProject "DataModel_Modol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29C6C5941CBFFD69009D6769;
+			productRefGroup = 29C6C59E1CBFFD69009D6769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29C6C59C1CBFFD69009D6769 /* DataModel_Modol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29C6C5991CBFFD69009D6769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C6C5AC1CC00522009D6769 /* NewsList.m in Sources */,
+				29C6C5A91CBFFDA3009D6769 /* News.m in Sources */,
+				29C6C5AF1CC01052009D6769 /* NewsDB.m in Sources */,
+				29C6C5A11CBFFD69009D6769 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29C6C5A21CBFFD69009D6769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		29C6C5A31CBFFD69009D6769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		29C6C5A51CBFFD69009D6769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29C6C5A61CBFFD69009D6769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29C6C5981CBFFD69009D6769 /* Build configuration list for PBXProject "DataModel_Modol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C6C5A21CBFFD69009D6769 /* Debug */,
+				29C6C5A31CBFFD69009D6769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C6C5A41CBFFD69009D6769 /* Build configuration list for PBXNativeTarget "DataModel_Modol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C6C5A51CBFFD69009D6769 /* Debug */,
+				29C6C5A61CBFFD69009D6769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29C6C5951CBFFD69009D6769 /* Project object */;
+}
